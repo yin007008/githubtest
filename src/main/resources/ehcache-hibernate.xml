@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache>
+    <diskStore path="java.io.tmpdir/ehcache-hb" />
+
+    <defaultCache maxElementsInMemory="10000" memoryStoreEvictionPolicy="LRU" eternal="false"
+        timeToIdleSeconds="300" timeToLiveSeconds="300" overflowToDisk="false" diskPersistent="false">
+    </defaultCache>
+
+    <cache name="hbCache" maxElementsInMemory="10000" maxElementsOnDisk="1000000" memoryStoreEvictionPolicy="LRU"
+        eternal="true" overflowToDisk="true" diskPersistent="false" diskExpiryThreadIntervalSeconds="120"
+        timeToIdleSeconds='0' timeToLiveSeconds='0'>
+    </cache>
+
+    <cache name="com.platform.entity.account.User" maxElementsInMemory="10000" memoryStoreEvictionPolicy="LRU"
+        eternal="true" diskPersistent="false" overflowToDisk="true" maxElementsOnDisk="1000000">
+    </cache>
+    
+    <cache name="com.platform.entity.account.User" maxElementsInMemory="10000444" memoryStoreEvictionPolicy="LRU"
+        eternal="true" diskPersistent="false" overflowToDisk="true" maxElementsOnDisk="100000011">
+    </cache>
+  
+  
+      <cache name="com.platform.entity.account.User" maxElementsInMemory="8888" memoryStoreEvictionPolicy="LRU"
+        eternal="true" diskPersistent="false" overflowToDisk="true" maxElementsOnDisk="100000011">
+    </cache>
+
+
+
+
+
+      <cache name="com.platform.entity.account.User" maxElementsInMemory="8888" memoryStoreEvictionPolicy="LRU"
+        eternal="true" diskPersistent="false" overflowToDisk="true" maxElementsOnDisk="100000011">
+    </cache>      
+    
+    
+    
+    
+    
+    
+    
+    <cache name="com.platform.entity.account.User" maxElementsInMemory="8888" memoryStoreEvictionPolicy="LRU"
+        eternal="true" diskPersistent="false" overflowToDisk="true" maxElementsOnDisk="100000011">
+    </cache>    
+</ehcache>
